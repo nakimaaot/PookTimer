@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4201AD141E43744C00BBD504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201AD131E43744C00BBD504 /* AppDelegate.swift */; };
+		4201AD191E43744C00BBD504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4201AD171E43744C00BBD504 /* Main.storyboard */; };
+		4201AD1B1E43744C00BBD504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4201AD1A1E43744C00BBD504 /* Assets.xcassets */; };
+		4201AD1E1E43744C00BBD504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4201AD1C1E43744C00BBD504 /* LaunchScreen.storyboard */; };
+		4201AD261E438C8C00BBD504 /* TabataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201AD251E438C8C00BBD504 /* TabataViewController.swift */; };
+		42CF58F11E44140500FE0225 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF58F01E44140500FE0225 /* SettingViewController.swift */; };
+		42CF59111E44A65A00FE0225 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF59101E44A65A00FE0225 /* StopwatchViewController.swift */; };
+		E7A9F3E48852E05358F7D7F2 /* Pods_PookTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A0A18025CACD364D3879A4 /* Pods_PookTimer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A0A18025CACD364D3879A4 /* Pods_PookTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PookTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D98018659C0308269B7075 /* Pods-PookTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PookTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PookTimer/Pods-PookTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		4201AD101E43744C00BBD504 /* PookTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PookTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4201AD131E43744C00BBD504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4201AD181E43744C00BBD504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4201AD1A1E43744C00BBD504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4201AD1D1E43744C00BBD504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4201AD1F1E43744C00BBD504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4201AD251E438C8C00BBD504 /* TabataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabataViewController.swift; sourceTree = "<group>"; };
+		42CF58F01E44140500FE0225 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		42CF59101E44A65A00FE0225 /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		B4738F16AFE245DFF6EF677B /* Pods-PookTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PookTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PookTimer/Pods-PookTimer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4201AD0D1E43744B00BBD504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A9F3E48852E05358F7D7F2 /* Pods_PookTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4201AD071E43744B00BBD504 = {
+			isa = PBXGroup;
+			children = (
+				4201AD121E43744C00BBD504 /* PookTimer */,
+				4201AD111E43744C00BBD504 /* Products */,
+				B75A77C792550CD773331438 /* Pods */,
+				8AABCC5F9F5E192173E0CCCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4201AD111E43744C00BBD504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4201AD101E43744C00BBD504 /* PookTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4201AD121E43744C00BBD504 /* PookTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4201AD131E43744C00BBD504 /* AppDelegate.swift */,
+				42CF58F01E44140500FE0225 /* SettingViewController.swift */,
+				4201AD251E438C8C00BBD504 /* TabataViewController.swift */,
+				42CF59101E44A65A00FE0225 /* StopwatchViewController.swift */,
+				4201AD171E43744C00BBD504 /* Main.storyboard */,
+				4201AD1A1E43744C00BBD504 /* Assets.xcassets */,
+				4201AD1C1E43744C00BBD504 /* LaunchScreen.storyboard */,
+				4201AD1F1E43744C00BBD504 /* Info.plist */,
+			);
+			path = PookTimer;
+			sourceTree = "<group>";
+		};
+		8AABCC5F9F5E192173E0CCCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A0A18025CACD364D3879A4 /* Pods_PookTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B75A77C792550CD773331438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D98018659C0308269B7075 /* Pods-PookTimer.debug.xcconfig */,
+				B4738F16AFE245DFF6EF677B /* Pods-PookTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4201AD0F1E43744B00BBD504 /* PookTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4201AD221E43744C00BBD504 /* Build configuration list for PBXNativeTarget "PookTimer" */;
+			buildPhases = (
+				0A19D2E8ED60E4AE09715E20 /* [CP] Check Pods Manifest.lock */,
+				4201AD0C1E43744B00BBD504 /* Sources */,
+				4201AD0D1E43744B00BBD504 /* Frameworks */,
+				4201AD0E1E43744B00BBD504 /* Resources */,
+				CBCDA5359C2015D3645DF11B /* [CP] Embed Pods Frameworks */,
+				F52F868E160BEFC2D1B65C4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PookTimer;
+			productName = PookTimer;
+			productReference = 4201AD101E43744C00BBD504 /* PookTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4201AD081E43744B00BBD504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tanpisit Jampa";
+				TargetAttributes = {
+					4201AD0F1E43744B00BBD504 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YF5V64Y455;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4201AD0B1E43744B00BBD504 /* Build configuration list for PBXProject "PookTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4201AD071E43744B00BBD504;
+			productRefGroup = 4201AD111E43744C00BBD504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4201AD0F1E43744B00BBD504 /* PookTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4201AD0E1E43744B00BBD504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4201AD1E1E43744C00BBD504 /* LaunchScreen.storyboard in Resources */,
+				4201AD1B1E43744C00BBD504 /* Assets.xcassets in Resources */,
+				4201AD191E43744C00BBD504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A19D2E8ED60E4AE09715E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCDA5359C2015D3645DF11B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PookTimer/Pods-PookTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52F868E160BEFC2D1B65C4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PookTimer/Pods-PookTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4201AD0C1E43744B00BBD504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF59111E44A65A00FE0225 /* StopwatchViewController.swift in Sources */,
+				4201AD141E43744C00BBD504 /* AppDelegate.swift in Sources */,
+				4201AD261E438C8C00BBD504 /* TabataViewController.swift in Sources */,
+				42CF58F11E44140500FE0225 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4201AD171E43744C00BBD504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4201AD181E43744C00BBD504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4201AD1C1E43744C00BBD504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4201AD1D1E43744C00BBD504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4201AD201E43744C00BBD504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4201AD211E43744C00BBD504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4201AD231E43744C00BBD504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D98018659C0308269B7075 /* Pods-PookTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5V64Y455;
+				INFOPLIST_FILE = PookTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naki.PookTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4201AD241E43744C00BBD504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4738F16AFE245DFF6EF677B /* Pods-PookTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5V64Y455;
+				INFOPLIST_FILE = PookTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naki.PookTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4201AD0B1E43744B00BBD504 /* Build configuration list for PBXProject "PookTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4201AD201E43744C00BBD504 /* Debug */,
+				4201AD211E43744C00BBD504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4201AD221E43744C00BBD504 /* Build configuration list for PBXNativeTarget "PookTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4201AD231E43744C00BBD504 /* Debug */,
+				4201AD241E43744C00BBD504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4201AD081E43744B00BBD504 /* Project object */;
+}
